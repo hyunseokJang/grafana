@@ -124,6 +124,7 @@ export class UnConnectedExploreToolbar extends PureComponent<Props, {}> {
                     onChange={this.onChangeDatasource}
                     datasources={exploreDatasources}
                     current={selectedDatasource}
+                    openMenuOnFocus={false}
                   />
                 </div>
               </div>
